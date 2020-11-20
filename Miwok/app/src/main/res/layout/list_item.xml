@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/images"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/learning_path"
+        android:layout_height="88dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:id="@+id/item_miok"
+        tools:text="lutti"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:layout_below="@id/item_miok"
+        android:textSize="18sp"
+        android:text="#FFFFFF"
+        android:id="@+id/item_english"
+        tools:text="one"/>
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_play_arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
